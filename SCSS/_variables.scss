@@ -1,0 +1,18 @@
+$bodytext: #505050;
+$textondark: #fff;
+$headers: #333;
+$highlighta: #e0412c;
+$highlightb: #91dbbd;
+$background: #ebebeb;
+
+
+
+
+$med:660px;
+$large: 980px;
+
+@mixin breakpoint($point) {
+	@media (min-width: $point) {
+		@content;
+	}
+}

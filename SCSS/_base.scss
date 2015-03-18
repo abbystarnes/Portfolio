@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	color: $bodytext;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+article {
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: $headers;
+    margin: 0px;
+    margin-bottom: .5em;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+     color: $headers;
+     margin: 0px;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+     color: $headers;
+     margin: 0px;
+}
+
+
+p {
+	margin: 0px;
+}

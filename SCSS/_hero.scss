@@ -1,0 +1,30 @@
+
+
+
+
+img {
+	float: left;
+	max-width: 45%;
+	max-height: 200px;
+	border-radius: 50%;
+	margin-right: 5%;
+}
+
+
+.introtext {
+	display: inline-block;
+	width: 50%;
+
+
+}
+
+.hero {
+	padding: 2em 5%;
+	background-color: $background;
+	margin: 0px;
+}
+
+
+.highlight {
+	color: $highlighta;
+}
