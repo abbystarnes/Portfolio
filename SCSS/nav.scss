@@ -1,8 +1,12 @@
 
-nav {
+.hf {
 	background-color: $highlighta;
 	padding-top: 2em;
 	padding-bottom: .5em;
+
+	@include breakpoint ($med) {
+		padding-top: 0em;
+		}
 	
 }
 
@@ -11,6 +15,14 @@ nav {
 	padding-right: 5%;
 	color: $textondark;
 	margin: 0px;
+	@include breakpoint ($med) {
+		text-align: center;
+		}
+
+
+		@include breakpoint ($med) {
+		width: 100%;
+		}
 
 	
 	li {
@@ -19,8 +31,15 @@ nav {
 		font-size: 1em;
 		width: 100%;
 		margin-bottom: 1em;
-		&:last-child {
-		 margin-bottom: none;
+			&:last-child {
+			 margin-bottom: none;
+			}
+
+		@include breakpoint ($med) {
+		display:inline;
+
+		
+			
 		}
 	}
 	text-align: right;
@@ -28,11 +47,27 @@ nav {
 }
 
 
+.number {
+
+		@include breakpoint ($med) {
+		margin-right: 4em;
+		}
+}
+
 .contacticons {
 	display: inline-block;
 	li {
 		font-size: 2em;
-		padding-right: 20px;
+		padding-right: .5em;
 		display: inline;
 	}
+
 }
+
+
+.fa {
+	vertical-align: middle;
+}
+
+
+

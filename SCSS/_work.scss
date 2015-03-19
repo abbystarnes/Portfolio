@@ -1,0 +1,52 @@
+
+
+.work {
+	width: 100%;
+}
+
+.works {
+	p {
+		margin-bottom: 3em;
+	}
+
+
+}
+
+
+.frame {
+	border: 2px solid $headers;
+	margin-bottom: 1em;
+	
+
+}
+
+
+.website {
+	@include breakpoint ($med) {
+		width: 47.5%;
+		float: left;
+
+	}
+
+	h2 {
+		margin-bottom: .5em;
+	}
+
+}
+
+
+.first {
+	@include breakpoint ($med) {
+		margin-right: 5%;
+
+	}
+}
+
+.innerWrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+
+

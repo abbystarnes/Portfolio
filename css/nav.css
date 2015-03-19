@@ -3,13 +3,13 @@ Error: Undefined variable: "$highlighta".
         on line 3 of scss/nav.scss
 
 1: 
-2: nav {
+2: .hf {
 3: 	background-color: $highlighta;
 4: 	padding-top: 2em;
 5: 	padding-bottom: .5em;
-6: 	
-7: }
-8: 
+6: 
+7: 	@include breakpoint ($med) {
+8: 		padding-top: 0em;
 
 Backtrace:
 scss/nav.scss:3
@@ -64,4 +64,4 @@ scss/nav.scss:3
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$highlighta\".\A         on line 3 of scss/nav.scss\A \A 1: \A 2: nav {\A 3: 	background-color: $highlighta;\A 4: 	padding-top: 2em;\A 5: 	padding-bottom: .5em;\A 6: 	\A 7: }\A 8: "; }
+  content: "Error: Undefined variable: \"$highlighta\".\A         on line 3 of scss/nav.scss\A \A 1: \A 2: .hf {\A 3: 	background-color: $highlighta;\A 4: 	padding-top: 2em;\A 5: 	padding-bottom: .5em;\A 6: \A 7: 	@include breakpoint ($med) {\A 8: 		padding-top: 0em;"; }
