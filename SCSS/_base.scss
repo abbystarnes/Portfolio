@@ -2,6 +2,11 @@
 	box-sizing: border-box;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 html, html a {
     -webkit-font-smoothing: antialiased;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
