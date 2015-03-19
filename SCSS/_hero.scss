@@ -22,6 +22,30 @@
 	padding: 2em 5%;
 	background-color: $background;
 	margin: 0px;
+	
+
+
+	@include breakpoint ($large) {
+		width: 66.66%;
+		float: left;
+
+		padding-bottom: 400em;
+		margin-bottom: -400em;
+
+		p {
+		padding-bottom: 2em;
+	}
+
+	}
+}
+
+
+.container {
+	@include breakpoint ($large) {
+		overflow: hidden;
+		width: 100%;
+
+	}
 }
 
 

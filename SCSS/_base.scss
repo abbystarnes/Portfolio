@@ -5,6 +5,17 @@
 a {
     color: white;
     text-decoration: none;
+
+    
+
+    @include breakpoint ($large) {
+       &:hover {
+        color: black;
+        
+        transition: .3s ease;
+       }
+
+    }
 }
 
 html, html a {

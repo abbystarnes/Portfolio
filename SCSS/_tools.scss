@@ -7,6 +7,14 @@
 	background-color: $highlightb;
 
 	padding: 2em 5%;
+
+	@include breakpoint ($large) {
+		width: 33.33%;
+		display: inline-block;
+		padding-bottom: 400em;
+		margin-bottom: -400em;
+
+	}
 	p {
 		color: $highlighta;
 		font-weight: 900;
