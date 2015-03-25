@@ -24,8 +24,14 @@
 .frame {
 	border: 2px solid $headers;
 	margin-bottom: 1em;
-	
 
+	@include breakpoint ($large) {
+	transition: border .3s ease;
+	
+	&:hover {
+		border-color: $highlightb;
+	}
+}
 }
 
 
@@ -53,6 +59,19 @@
 .innerWrapper {
 	width: 90%;
 	margin: 0 auto;
+}
+
+
+.preview {
+	color:#222;
+
+	@include breakpoint ($large) {
+	transition: color .5s ease;
+
+	&:hover {
+		color: $highlightb;
+	}
+}
 }
 
 

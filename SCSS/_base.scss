@@ -10,7 +10,7 @@ a {
 
     @include breakpoint ($large) {
        &:hover {
-        color: black;
+        color: $highlightb;
         
         transition: .3s ease;
        }
