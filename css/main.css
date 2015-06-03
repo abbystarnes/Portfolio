@@ -9,7 +9,7 @@
    ========================================================================== */
 @import url("http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700");
 .hf {
-  background-color: #e0412c;
+  background-color: #454545;
   padding-top: 2em;
   padding-bottom: .5em; }
   @media (min-width: 660px) {
@@ -60,7 +60,7 @@ a {
   text-decoration: none; }
   @media (min-width: 980px) {
     a:hover {
-      color: #91dbbd;
+      color: #9bcc26;
       transition: .3s ease; } }
 
 html, html a {
@@ -128,12 +128,12 @@ p {
     width: 100%; } }
 
 .highlight {
-  color: #e0412c; }
+  color: #9bcc26; }
 
 .tools {
   display: block;
   width: 100%;
-  background-color: #91dbbd;
+  background-color: #9bcc26;
   padding: 2em 5%; }
   @media (min-width: 980px) {
     .tools {
@@ -142,7 +142,7 @@ p {
       padding-bottom: 400em;
       margin-bottom: -400em; } }
   .tools p {
-    color: #e0412c;
+    color: #454545;
     font-weight: 900;
     line-height: 2em; }
 
@@ -164,7 +164,7 @@ p {
     .frame {
       transition: border .3s ease; }
       .frame:hover {
-        border-color: #91dbbd; } }
+        border-color: #9bcc26; } }
 
 @media (min-width: 660px) {
   .website {
@@ -187,7 +187,7 @@ p {
     .preview {
       transition: color .5s ease; }
       .preview:hover {
-        color: #91dbbd; } }
+        color: #9bcc26; } }
 
 html {
   color: #222;
