@@ -22,7 +22,7 @@
 
 
 .frame {
-	border: 2px solid $headers;
+	// border: 2px solid $headers;
 	margin-bottom: 1em;
 
 	@include breakpoint ($large) {
