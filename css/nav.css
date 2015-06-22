@@ -1,18 +1,21 @@
 /*
-Error: Undefined variable: "$highlighta".
-        on line 3 of scss/nav.scss
+Error: Undefined variable: "$bodytext".
+        on line 8 of scss/nav.scss
 
-1: 
-2: .hf {
-3: 	background-color: $highlighta;
-4: 	padding-top: 2em;
-5: 	padding-bottom: .5em;
-6: 
-7: 	@include breakpoint ($med) {
-8: 		padding-top: 0em;
+3: 	// background-color: $highlighta;
+4: 	padding-top: 1em;
+5: 	padding-bottom: 0.3em;
+6: 		list-style-type:none;
+7: 	// padding-right: 5%;
+8: 	color: $bodytext;
+9: 	margin: 0px;
+10: 
+11: 
+12: 
+13: 		
 
 Backtrace:
-scss/nav.scss:3
+scss/nav.scss:8
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.11/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.11/lib/sass/script/tree/node.rb:50:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
@@ -64,4 +67,4 @@ scss/nav.scss:3
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$highlighta\".\A         on line 3 of scss/nav.scss\A \A 1: \A 2: .hf {\A 3: 	background-color: $highlighta;\A 4: 	padding-top: 2em;\A 5: 	padding-bottom: .5em;\A 6: \A 7: 	@include breakpoint ($med) {\A 8: 		padding-top: 0em;"; }
+  content: "Error: Undefined variable: \"$bodytext\".\A         on line 8 of scss/nav.scss\A \A 3: 	// background-color: $highlighta;\A 4: 	padding-top: 1em;\A 5: 	padding-bottom: 0.3em;\A 6: 		list-style-type:none;\A 7: 	// padding-right: 5%;\A 8: 	color: $bodytext;\A 9: 	margin: 0px;\A 10: \A 11: \A 12: \A 13: 		"; }

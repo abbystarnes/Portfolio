@@ -3,7 +3,7 @@
 }
 
 a {
-    color: white;
+    // color: white;
     text-decoration: none;
 
     
@@ -26,8 +26,16 @@ html, html a {
 body {
 	font-family: "Open Sans", sans-serif;
 	color: $bodytext;
-    max-width: 1280px;
-    margin: 0 auto;
+
+  
+   
+}
+
+.wrapper {
+      max-width: 1280px;
+        margin: 0 auto;
+        width: 90%;
+
 }
 
 article {
@@ -36,10 +44,12 @@ article {
 
 h1 {
     font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    color: $headers;
+    font-size: 1.5em;
+    // text-transform: uppercase;
+    // color: $headers;
     margin: 0px;
-    margin-bottom: .5em;
+    // margin-bottom: .5em;
+    font-weight: 400;
 }
 
 h2 {
@@ -47,6 +57,7 @@ h2 {
     text-transform: uppercase;
      color: $headers;
      margin: 0px;
+     font-weight: 400;
 }
 
 h3 {

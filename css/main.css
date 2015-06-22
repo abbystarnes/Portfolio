@@ -8,55 +8,39 @@
    Base styles: opinionated defaults
    ========================================================================== */
 @import url("http://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400italic,700italic,400,700");
-.hf {
-  background-color: #454545;
-  padding-top: 2em;
-  padding-bottom: .5em; }
-  @media (min-width: 660px) {
-    .hf {
-      padding-top: 0em; } }
-
-.contact {
+nav {
+  padding-top: 1em;
+  padding-bottom: 0.3em;
   list-style-type: none;
-  padding-right: 5%;
-  color: #fff;
+  color: #505050;
   margin: 0px;
-  text-align: right; }
-  @media (min-width: 660px) {
-    .contact {
-      text-align: center; } }
-  @media (min-width: 660px) {
-    .contact {
-      width: 100%; } }
-  .contact li {
-    font-size: 1em;
-    width: 100%;
-    margin-bottom: 1em; }
-    .contact li:last-child {
-      margin-bottom: none; }
-    @media (min-width: 660px) {
-      .contact li {
-        display: inline; } }
+  font-size: 1em;
+  margin-bottom: 1em; }
+  nav:last-child {
+    margin-bottom: none; }
+  nav p {
+    padding-bottom: 1.5em; }
+  nav h1 {
+    color: #505050;
+    display: inline-block; }
+
+i {
+  color: #505050;
+  font-size: 1.5em; }
 
 @media (min-width: 660px) {
   .number {
     margin-right: 4em; } }
 
-.contacticons {
-  display: inline-block; }
-  .contacticons li {
-    font-size: 2em;
-    padding-right: .5em;
-    display: inline; }
-
-.fa {
-  vertical-align: middle; }
+.links {
+  padding-left: 0px; }
+  .links li {
+    list-style-type: none; }
 
 * {
   box-sizing: border-box; }
 
 a {
-  color: white;
   text-decoration: none; }
   @media (min-width: 980px) {
     a:hover {
@@ -69,25 +53,28 @@ html, html a {
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #505050;
+  color: #505050; }
+
+.wrapper {
   max-width: 1280px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 90%; }
 
 article {
   margin-bottom: 1em; }
 
 h1 {
   font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  color: #333;
+  font-size: 1.5em;
   margin: 0px;
-  margin-bottom: .5em; }
+  font-weight: 400; }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   color: #333;
-  margin: 0px; }
+  margin: 0px;
+  font-weight: 400; }
 
 h3 {
   font-family: "Montserrat", sans-serif;
@@ -98,42 +85,9 @@ h3 {
 p {
   margin: 0px; }
 
-.profile {
-  float: left;
-  max-width: 45%;
-  max-height: 150px;
-  border-radius: 50%;
-  margin-right: 5%; }
-
-.introtext {
-  display: inline-block;
-  width: 50%; }
-
-.hero {
-  padding: 2em 5%;
-  background-color: #ebebeb;
-  margin: 0px; }
-  @media (min-width: 980px) {
-    .hero {
-      width: 66.66%;
-      float: left;
-      padding-bottom: 400em;
-      margin-bottom: -400em; }
-      .hero p {
-        padding-bottom: 2em; } }
-
-@media (min-width: 980px) {
-  .container {
-    overflow: hidden;
-    width: 100%; } }
-
-.highlight {
-  color: #9bcc26; }
-
 .tools {
   display: block;
   width: 100%;
-  background-color: #9bcc26;
   padding: 2em 5%; }
   @media (min-width: 980px) {
     .tools {
@@ -146,39 +100,64 @@ p {
     font-weight: 900;
     line-height: 2em; }
 
+.website {
+  height: 400px;
+  position: relative; }
+  @media (min-width: 980px) {
+    .website {
+      height: 300px; } }
+  .website .titles {
+    position: absolute;
+    top: 50%;
+    margin-top: -2em;
+    text-align: center; }
+  .website h2 {
+    opacity: 0;
+    transition: opacity .3s linear;
+    display: block;
+    text-align: center; }
+  .website:hover h2 {
+    opacity: 1; }
+
 .work {
   width: 100%; }
 
-.works {
-  display: block; }
-  .works p {
-    margin-bottom: 3em; }
+.ppc {
+  background-image: url(../img/PPC.jpg);
+  background-size: cover;
+  opacity: 1;
+  transition: opacity .3s linear; }
+  .ppc:hover {
+    opacity: .2; }
+
+.conquest {
+  background-image: url(../img/Conquest.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  transition: opacity .3s linear; }
+  .conquest:hover {
+    opacity: .2; }
+
+.works p {
+  margin-bottom: 3em; }
+@media (min-width: 980px) {
+  .works h1 {
+    margin-top: 1em; } }
+
+.website {
+  background-color: #f1f1f1; }
+  @media (min-width: 660px) {
+    .website {
+      margin-right: 2.5%;
+      width: 47.5%;
+      float: left; } }
   @media (min-width: 980px) {
-    .works h1 {
-      margin-top: 1em; } }
-
-.frame {
-  margin-bottom: 1em; }
-  @media (min-width: 980px) {
-    .frame {
-      transition: border .3s ease; }
-      .frame:hover {
-        border-color: #9bcc26; } }
-
-@media (min-width: 660px) {
-  .website {
-    width: 47.5%;
-    float: left; } }
-.website h2 {
-  margin-bottom: .5em; }
-
-@media (min-width: 660px) {
-  .first {
-    margin-right: 5%; } }
-
-.innerWrapper {
-  width: 90%;
-  margin: 0 auto; }
+    .website {
+      width: 30%;
+      margin-right: 3%; } }
+  .website h2 {
+    margin-bottom: .5em; }
 
 .preview {
   color: #222; }
@@ -187,6 +166,45 @@ p {
       transition: color .5s ease; }
       .preview:hover {
         color: #9bcc26; } }
+
+.design article {
+  margin: 1.5em;
+  float: left;
+  max-width: 100%; }
+
+.image1 {
+  background-image: url("../img/homeppc.jpg");
+  background-size: 336px 468px;
+  height: 468px;
+  width: 336px; }
+
+.image2 {
+  background-image: url("../img/aboutppc.jpg");
+  background-size: 336px 646px;
+  height: 646px;
+  width: 336px; }
+
+.image3 {
+  background-image: url("../img/resippc.jpg");
+  background-size: 336px 570px;
+  height: 570px;
+  background-image-repeat: no-repeat;
+  width: 336px; }
+
+.image4 {
+  background-image: url("../img/singleppc.jpg");
+  background-size: 336px 621px;
+  height: 621px;
+  background-image-repeat: no-repeat;
+  width: 336px; }
+
+.imageBefore {
+  background-image: url("../img/PPCbefore.jpg");
+  background-size: 698px 409px;
+  height: 409px;
+  width: 698px;
+  background-image-repeat: no-repeat;
+  max-width: 100%; }
 
 html {
   color: #222;
@@ -211,14 +229,6 @@ html {
 /*
  * A better looking default horizontal rule
  */
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0; }
-
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:

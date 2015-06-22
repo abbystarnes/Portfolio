@@ -1,15 +1,81 @@
 
+.website {
+	height: 400px;
+	position: relative;
+	
 
+	
+	
+
+	@include breakpoint ($large) {
+		height: 300px;
+	}
+
+	.titles {
+
+		position: absolute;
+		top: 50%;
+		
+		margin-top: -2em;
+		text-align: center;
+	}	
+	h2 {
+		opacity: 0;
+		transition: opacity .3s linear;
+		display: block;
+		text-align: center;
+
+
+	}
+
+	&:hover {
+		h2 {
+			opacity: 1;
+		}
+	}
+}
+
+	
 .work {
 	width: 100%;
 }
 
+.ppc {
+	background-image: url(../img/PPC.jpg);
+	background-size: cover;
+	opacity: 1;
+	transition: opacity .3s linear;
+
+	&:hover {
+		opacity: .2;
+
+		
+	}
+}
+
+.conquest {
+	background-image: url(../img/Conquest.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 1;
+	transition: opacity .3s linear;
+
+	&:hover {
+		opacity: .2;
+
+		
+	}
+
+}
+
 .works {
+	
 	p {
 		margin-bottom: 3em;
 	
 	}
-	display: block;
+
+	
 
 
 	@include breakpoint ($large) {
@@ -21,24 +87,19 @@
 }
 
 
-.frame {
-	// border: 2px solid $headers;
-	margin-bottom: 1em;
-
-	@include breakpoint ($large) {
-	transition: border .3s ease;
-	
-	&:hover {
-		border-color: $highlightb;
-	}
-}
-}
-
 
 .website {
 	@include breakpoint ($med) {
+		margin-right: 2.5%;
 		width: 47.5%;
 		float: left;
+
+	}
+
+	@include breakpoint ($large) {
+		width: 30%;
+		margin-right: 3%;
+
 
 	}
 
@@ -46,20 +107,12 @@
 		margin-bottom: .5em;
 	}
 
+	background-color: $textondark;
+
+
+
 }
 
-
-.first {
-	@include breakpoint ($med) {
-		margin-right: 5%;
-
-	}
-}
-
-.innerWrapper {
-	width: 90%;
-	margin: 0 auto;
-}
 
 
 .preview {

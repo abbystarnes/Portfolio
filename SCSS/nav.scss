@@ -1,50 +1,50 @@
 
-.hf {
-	background-color: $highlighta;
-	padding-top: 2em;
-	padding-bottom: .5em;
-
-	@include breakpoint ($med) {
-		padding-top: 0em;
-		}
-	
-}
-
-.contact {
-	list-style-type:none;
-	padding-right: 5%;
-	color: $textondark;
+nav {
+	// background-color: $highlighta;
+	padding-top: 1em;
+	padding-bottom: 0.3em;
+		list-style-type:none;
+	// padding-right: 5%;
+	color: $bodytext;
 	margin: 0px;
-	@include breakpoint ($med) {
-		text-align: center;
-		}
 
 
-		@include breakpoint ($med) {
-		width: 100%;
-		}
 
-	
-	li {
-		// display: inline;
 		
 		font-size: 1em;
-		width: 100%;
+		// width: 100%;
 		margin-bottom: 1em;
 			&:last-child {
 			 margin-bottom: none;
 			}
 
-		@include breakpoint ($med) {
-		display:inline;
+	p {
+		padding-bottom: 1.5em;
+	}		
 
-		
-			
-		}
+
+
+	// padding-left: 5%;
+
+	h1{
+
+	color: $bodytext;
+	display: inline-block;
+	
 	}
-	text-align: right;
 
+
+	
+}	
+
+i {
+	color:$bodytext;
+	font-size: 1.5em;
 }
+
+	
+
+
 
 
 .number {
@@ -54,20 +54,15 @@
 		}
 }
 
-.contacticons {
-	display: inline-block;
+.links {
 	li {
-		font-size: 2em;
-		padding-right: .5em;
-		display: inline;
+		list-style-type: none;
 	}
-
+	padding-left: 0px;
 }
 
 
-.fa {
-	vertical-align: middle;
-}
+
 
 
 
