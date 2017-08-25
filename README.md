@@ -1,7 +1,7 @@
 ![2015 TIY Portfolio logo](android-icon-192x192.png)
 
 # Portfolio Website
-> design and responsive build of portfolio website
+> design and responsive build for my portfolio website
 
 https://abbystarnes.github.io/Portfolio/
 
