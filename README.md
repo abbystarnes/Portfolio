@@ -1,4 +1,4 @@
-![2015 TIY Portfolio logo](ms-icon-310x310.png)
+![2015 TIY Portfolio logo](android-icon-192x192.png)
 
 # Portfolio Website
 > design and responsive build of portfolio website
